@@ -18,3 +18,7 @@ Messenger的object字段在2.2之前不支持跨进程传输，2.2之后也仅�
 3、创建客户端。
 
 详情请看代码
+
+
+有一个坑，就是Android Studio 的Log打印中，下方的打印显示是区分进程的，在这个demo中，因为是进程间的通信，所以要点击倒三角切换进程查看相应的Log日志。
+![sss](https://github.com/carrys17/Sucai/blob/master/1499011469(1).jpg)
